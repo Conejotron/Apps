@@ -2,12 +2,12 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     itemContainer: {
-        flex: 1,
+        flex: 5,
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
         marginVertical: 10,
-        backgroundColor: '#7D8CC4',
+        backgroundColor: '#89A1EF',
         padding: 20,
         borderRadius: 7,
         shadowColor: "#000",

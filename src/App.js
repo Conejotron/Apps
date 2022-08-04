@@ -76,8 +76,8 @@ export default function App() {
             <Text style={styles.modalItem}>{itemSelected.value}</Text>
           </View>
           <View style={styles.modalButton}>
-            <Button title='Eliminar' onPress={() => onDeleteItem(itemSelected.id)} color='#7D8CC4' />
-            <Button title='Cancelar' onPress={() => setModalVisible(!modalVisible)} color='#cccccc' />
+            <Button title='Eliminar' onPress={() => onDeleteItem(itemSelected.id)} color='#DD1C1A' />
+            <Button title='Cancelar' onPress={() => setModalVisible(!modalVisible)} color='#F0C808' />
           </View>
         </View>
      </CustomModal>
@@ -87,12 +87,12 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
+    flex: 5,
+    backgroundColor: '#32CBFF',    
   },
   itemList: {
-    backgroundColor: '#fff',
-    flex: 1,
+    backgroundColor: '#32CBFF',
+    flex: 5,
     marginVertical: 20,
     marginHorizontal: 20,
   },
@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
   },
   modalItem: {
     fontSize: 15,
-    color: '#7D8CC4',
+    color: '#086788',
     fontWeight: 'bold',
   },
   modalButton: {
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 20,
   },
   modal: {
-    flex: 1,
-    marginTop: 30
+    flex: 5,
+    marginTop: 200
   }
 });
